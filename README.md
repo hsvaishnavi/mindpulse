@@ -1,16 +1,53 @@
-# React + Vite
+# 🌙 MindPulse - Mood Journal App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MindPulse is a React-based mood tracking and journaling application that helps users record daily thoughts, track emotional patterns, and view simple mood analytics.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📝 Write daily journal entries
+- 😊 Select mood for each entry
+- 💾 Data stored using localStorage
+- 📒 View journal history
+- 📊 Mood analytics (basic insights)
+- 🗑 Delete entries (if implemented)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- localStorage API
+
+## Project Structure
+src/
+ ├── components/
+ │    ├── JournalForm.jsx
+ │    ├── JournalList.jsx
+ │    ├── MoodStats.jsx
+ ├── utils/
+ │    ├── storage.js
+ ├── App.jsx
+ ├── main.jsx
+
+## How to run Locally
+
+npm install
+npm run dev
+
+## Future Improvements
+
+🌙 Dark mode UI
+📊 Charts for mood tracking
+☁️ Backend integration (MongoDB / Firebase)
+🔐 Authentication system
+
+## Author
+Vaishnavi 
+
+
+
+
